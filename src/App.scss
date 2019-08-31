@@ -1,0 +1,117 @@
+//https://www.color-hex.com/color-palette/23357
+
+.App{
+
+  .PrivacyCard{
+
+    max-width: 500px;
+    text-align: center;
+    border: 1px solid #D3D3D3;
+    border-radius: 2%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .2);;
+
+
+    //To get it positioned in this specific app - can be deleted
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+
+
+    @media only screen and (max-width: 500px) {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+  }
+
+  .PrivacyCardTitle{
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .privacyItem{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-bottom: 1px solid #E8E8E8;
+    border-top: 1px solid #E8E8E8;
+  }
+
+  .privacyItem:hover{
+    //Only on mouse/trackpad - deals with sticky mobile hover
+    @media (hover: hover) and (pointer: fine) {
+      background-color: #F8F8F8
+    }
+  }
+
+  .active{
+
+    background-color: #F8F8F8
+  }
+
+  ul{
+    margin: auto;
+    list-style-type: none;
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-top: 1px solid #DCDCDC;
+    border-bottom: 1px solid #DCDCDC;
+  }
+
+
+  .privacyItemMain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+
+    h3{
+      margin: 0px;
+      text-align: initial;
+    }
+
+  }
+
+  .rankBox{
+    max-height: 15px;
+    max-width: 15px;
+    min-height: 15px;
+    min-width: 15px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .rankBox.one{
+    background-color: #339900;
+  }
+
+  .rankBox.two{
+    background-color: #ffcc00;
+  }
+
+  .rankBox.three{
+    background-color: #cc3300;
+  }
+
+  .privacyItemDescription{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+
+    p{
+      text-align: initial;
+    }
+  }
+
+
+
+}
