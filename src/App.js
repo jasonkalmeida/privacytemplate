@@ -65,8 +65,10 @@ function PrivacyCard(){
         <h3>It would like to:</h3>
       </div>
       <PrivacyList />
-      <button>Allow</button>
-      <button>Deny</button>
+      <div className="PrivacyAction">
+        <button id="accept">Allow</button>
+        <button it="deny">Deny</button>
+      </div>
     </div>
   );
 }
