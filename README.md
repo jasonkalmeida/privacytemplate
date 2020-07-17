@@ -9,7 +9,7 @@ Data privacy self-management is something that has been espoused by many in the 
 
 That said, as evidenced by things like the Cambridge Analytica/Facebook scandal, users don't always understand the impact of sharing certain data categories. This can stem from many things, including a sense of "trust" in the platform. It could be argued that trust led to the spotlight on Facebook in the CA scandal.
 
-User nudging is premised on the concept that technology companies have a better understanding of the sensitivity & impact of sharing certain data categories than their typical user. But, instead of locking down the user's data and removing choice, technology companies (particularly platforms) should use their knowledge to proactively inform and "nudge" users in the write direction.
+User nudging is premised on the concept that technology companies have a better understanding of the sensitivity & impact of sharing certain data categories than their typical user. But, instead of locking down the user's data and removing choice, technology companies (particularly platforms) should use their knowledge to proactively inform and "nudge" users in the right direction.
 
 ## First Prototype
 
